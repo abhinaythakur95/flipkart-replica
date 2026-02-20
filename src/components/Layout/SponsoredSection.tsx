@@ -1,46 +1,5 @@
-import { Box, Typography, Stack, Container } from "@mui/material";
-import Electronics from '../../assets/Images/Electronics.png';
-import HomeKitchen from '../../assets/Images/Home&Kitchen.jpg';
-import Toys from '../../assets/Images/Toys.jpg';
-import GenZTrends from '../../assets/Images/GenzTrends.jpg';
-import Mobiles from '../../assets/Images/Mobile.jpg';
-
-
-interface SponsoredProduct {
-  id: number;
-  image: string;
-  title: string;     
-  description: string; 
-}
-
-
-const sponsoredData: SponsoredProduct[] = [
-  { 
-    id: 1, 
-    image: Electronics,
-    title: "Launch 23rd Feb", 
-    description: "21 day battery*" 
-  },
-  { 
-    id: 2, 
-    image: HomeKitchen,
-    title: "From ₹999", 
-    description: "Limited time deal" 
-  },
-  { 
-    id: 3, 
-    image: Toys,
-    title: "From ₹999", 
-    description: "Track your fitness" 
-  },
-  
-  { 
-    id: 4, 
-    image: GenZTrends,
-    title: "Top Offers", 
-    description: "Shop Now" 
-  },
-];
+import { Box, Typography, Stack } from "@mui/material";
+import { sponsoredData } from "../utils/data";
 
 const SponsoredSection = () => {
   return (

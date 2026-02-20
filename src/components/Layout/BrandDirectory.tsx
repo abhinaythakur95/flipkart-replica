@@ -35,7 +35,7 @@ const BrandDirectory = () => {
                 sx={{
                   fontSize: "12px",
                   fontWeight: 700,
-                  color: "#878787", // Muted label color
+                  color: "#878787", 
                   mr: 1,
                 }}
               >
@@ -58,7 +58,7 @@ const BrandDirectory = () => {
                   >
                     {link}
                   </Link>
-                  {/* Logic to only show the separator between links */}
+                 
                   {index < item.links.length - 1 && (
                     <Box component="span" sx={{ mx: 0.8, color: "#ccc" }}>
                       |

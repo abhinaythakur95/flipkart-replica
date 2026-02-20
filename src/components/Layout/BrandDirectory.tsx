@@ -14,7 +14,7 @@ const BrandDirectory = () => {
         py: 4,
       }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Typography
           variant="h6"
           sx={{

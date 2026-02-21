@@ -65,7 +65,7 @@ const ProductScrollSection = () => {
         observer.unobserve(observerTarget.current);
       }
     };
-  }, [fetchMoreItems, loading, hasMore]);
+}, [fetchMoreItems]);
 
   return (
     <Box sx={{ p: 2, bgcolor: "white", mt: 2 }}>

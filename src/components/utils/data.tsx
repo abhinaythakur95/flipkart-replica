@@ -3,6 +3,18 @@ import HomeKitchen from '../../assets/Images/Home&Kitchen.jpg';
 import Toys from '../../assets/Images/Toys.jpg';
 import GenZTrends from '../../assets/Images/GenzTrends.jpg';
 import Mobiles from '../../assets/Images/Mobile.jpg';
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
+import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import StorefrontOutlinedIcon from "@mui/icons-material/StorefrontOutlined";
+import CardGiftcardOutlinedIcon from "@mui/icons-material/CardGiftcardOutlined";
+import RedeemOutlinedIcon from "@mui/icons-material/RedeemOutlined";
+import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
+import HeadsetMicOutlinedIcon from "@mui/icons-material/HeadsetMicOutlined";
+import CampaignOutlinedIcon from "@mui/icons-material/CampaignOutlined";
+import PhoneAndroidOutlinedIcon from "@mui/icons-material/PhoneAndroidOutlined";
+
 
 interface ProductItem {
   id: number;
@@ -497,4 +509,26 @@ export const sponsoredData: SponsoredProduct[] = [
     title: "Top Offers", 
     description: "Shop Now" 
   },
+];
+
+
+export const menuItems = [
+  { label: "My Profile", icon: <AccountCircleIcon fontSize="small" /> },
+  { label: "Flipkart Plus Zone", icon: <StarBorderIcon fontSize="small" /> },
+  { label: "Orders", icon: <Inventory2OutlinedIcon fontSize="small" /> },
+  { label: "Wishlist", icon: <FavoriteBorderIcon fontSize="small" /> },
+  { label: "Become a Seller", icon: <StorefrontOutlinedIcon fontSize="small" /> },
+  { label: "Rewards", icon: <RedeemOutlinedIcon fontSize="small" /> },
+  { label: "Gift Cards", icon: <CardGiftcardOutlinedIcon fontSize="small" /> },
+  { label: "Notification Preferences", icon: <NotificationsNoneOutlinedIcon fontSize="small" /> },
+  { label: "24x7 Customer Care", icon: <HeadsetMicOutlinedIcon fontSize="small" /> },
+  { label: "Advertise", icon: <CampaignOutlinedIcon fontSize="small" /> },
+  { label: "Download App", icon: <PhoneAndroidOutlinedIcon fontSize="small" /> },
+];
+
+export const moreMenuItems = [
+  { label: "Become a Seller", icon: <StorefrontOutlinedIcon fontSize="small" /> },
+  { label: "Notification Settings", icon: <NotificationsNoneOutlinedIcon fontSize="small" /> },
+  { label: "24x7 Customer Care", icon: <HeadsetMicOutlinedIcon fontSize="small" /> },
+  { label: "Advertise on Flipkart", icon: <CampaignOutlinedIcon fontSize="small" /> },
 ];
